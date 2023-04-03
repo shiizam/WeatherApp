@@ -1,0 +1,38 @@
+.nav-wrapper{
+  display: grid;
+  grid-template-columns: 1fr .25fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--nav-bg);
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-wrapper img{
+  width: 35px;
+  height: 35px;
+  padding-left: .5rem;
+}
+
+#company-name{
+  color: var(--main-bg);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#company-slogan{
+  grid-column: 1 / span 2;
+  margin: 0;
+  font-size: 14px;
+  color: var(--secondary-text)
+}
+
+#logo{
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: right;
+}
+
+
+
+

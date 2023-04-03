@@ -1,0 +1,26 @@
+.hourly-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  width: min-content;
+}
+
+.hour-temp{
+  font-size: 24px;
+}
+
+.hourly-card-footer{
+  text-align: center;
+  padding-top: .5rem;
+}
+
+@media screen and (min-width: 900px) {
+  
+  .hourly-wrapper{
+    grid-template-columns: repeat(8, 1fr);
+    width: auto;
+    padding: 0 4rem;
+  }
+}

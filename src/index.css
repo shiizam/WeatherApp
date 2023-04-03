@@ -1,0 +1,52 @@
+:root {
+  --nav-bg: hsl(228, 24%, 35%);
+  --main-bg: hsl(248, 35%, 8%);
+  --card-bg: hsl(234, 32%, 17%);
+  --primary-text: white;
+  --secondary-text: hsl(243, 10%, 66%);
+  --yellow: hsl(53, 100%, 70%);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  display: flex;
+  font-family: 'Poppins';
+  min-width: 375px;
+  min-height: 100vh;
+  background: var(--main-bg);
+  color: var(--primary-text);
+}
+
+h1,
+p{
+  margin: 0;
+}
+
+input,
+button{
+  font-family: 'Poppins';
+  border: none;
+}
+
+
+@media screen and (min-width: 900px) {
+  .App{
+    display: grid;
+    grid-template-columns: .25fr 5fr;
+    grid-template-rows:  auto auto;
+
+  }
+
+  body{
+    padding: 0;
+    overflow: hidden;
+  }
+}

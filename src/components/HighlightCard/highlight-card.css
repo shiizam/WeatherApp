@@ -1,0 +1,72 @@
+.wind-list-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.wrapper-subtitles{
+  font-size: 24px;
+  padding: 1rem;
+}
+
+.highlight-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  background: var(--card-bg);
+}
+
+.highlight-card-title{
+  padding-bottom: 1rem;
+  font-size: 20px;
+  color: var(--secondary-text);
+}
+
+.highlight-card h2{
+  margin: 0;
+  font-size: 42px;
+}
+
+#direction{
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
+.progress-container{
+  background: var(--secondary-text);
+  width: 250px;
+  height: 10px;
+  border-radius: 1.4rem;
+}
+
+.progress-label{
+  display: flex;
+}
+
+#progress-label-end{
+  padding-left: 12rem
+}
+
+@media screen and (min-width: 900px) {
+  .wind-list-wrapper{
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 4rem 0;
+    height: min-content;
+  }
+
+  .wrapper-subtitles{
+    padding: 1rem 0 0;
+    grid-column: 1 / 5;
+    font-size: 36px;
+  }
+
+  .highlight-card{
+    height: auto;
+    width: 100%;
+    padding: 1rem 0;
+  }
+}

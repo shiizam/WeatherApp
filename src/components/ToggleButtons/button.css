@@ -1,0 +1,21 @@
+.toggleBtn{
+  padding: .75rem;
+  background-color: var(--card-bg);
+  color: var(--secondary-text);
+  width: 70px;
+}
+
+#hours{
+  border-radius: 1.4rem 0 0 1.4rem;
+}
+
+#ten-days{
+  border-radius: 0 1.4rem 1.4rem 0;
+}
+
+@media screen and (min-width: 900px) {
+  .toggleBtn{
+    background-color: var(--main-bg);
+    color: var(--secondary-text);
+  }
+}

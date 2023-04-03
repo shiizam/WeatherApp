@@ -1,0 +1,16 @@
+.forecast-title-wrapper{
+  font-size: 24px;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .list-wrapper{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .forecast-title-wrapper{
+    padding: 2rem 4rem 1rem;
+    font-size: 36px;
+  }
+}
